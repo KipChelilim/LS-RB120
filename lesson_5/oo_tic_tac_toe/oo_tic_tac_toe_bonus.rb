@@ -17,7 +17,6 @@ class User < Player
     print "Please enter your player name: "
     name = gets.chomp
     self.name = name.strip.empty? ? "Player 1" : name.capitalize
-    "K"
   end
 
   def choose_a_square(current_board, _)
